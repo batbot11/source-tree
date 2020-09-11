@@ -7,7 +7,7 @@ const StyledLoader = styled.img`
 
 const ButtonLoader = () => {
   return (
-    <StyledLoader src="/images/loader.gif" />
+    <StyledLoader src="images/loader.gif" />
   );
 };
 
