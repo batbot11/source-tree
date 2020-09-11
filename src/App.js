@@ -34,7 +34,7 @@ const App = ({ setAuthState, isAuthenticated }) => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/source-tree" >
       <Switch>
         <Redirect exact={true} from="/" to="/login" />
         <Route isAuthenticated={isAuthenticated} path="/login" exact component={LoginPage} />
